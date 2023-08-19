@@ -5,18 +5,15 @@ const ishan = {
         "I am learning Web Development"
     ],
     "skills": [
-        "Python",
-        "HTML5",
-        "CSS3",
-        "Tailwind CSS",
-        "Javascript",
-        "Typescript",
-        "React",
-        "Node.js",
-        "Express.js",
-        "MonogDB",
-        "Mongoose"
+        "C++", "Python",
+        "HTML5", "CSS3", "Tailwind CSS",
+        "Javascript", "Typescript",
+        "React", "Angular"
+        "Node.js","Express.js",
+        "MonogDB", "Mongoose",
+        "PostgreSQL", "Sequelize"
     ],
+    "website": "ishanlearnsprog.tech",
     "contact": {
         "Mail": "learnprog21@gmail.com",
         "Linkedin": "https://www.linkedin.com/in/ishanlearnsprog",
