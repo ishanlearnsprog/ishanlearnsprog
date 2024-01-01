@@ -30,4 +30,5 @@ const ishan = {
         "Linkedin": "https://www.linkedin.com/in/ishanlearnsprog",
         "Twitter": "https://twitter.com/ishanlearnsprog",
     }
+}
 ```
