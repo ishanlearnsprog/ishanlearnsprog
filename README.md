@@ -1,28 +1,13 @@
 ```
+
 const ishan = {
-    "current": [
-        "I am a Web Developer",
-        "I build cool websites"
-    ]
+    "latest_updates": [
+        "Working full time as a full-stack web developer",
+        "Improving UI skills in my free time",
+        "Learning and exploring math and computers"
+    ],
     "skills": [
-        "Python",
-        "HTML5",
-        "CSS3",
-        "Tailwind CSS",
-        "Javascript",
-        "Typescript",
-        "React",
-        "Node.js",
-        "Express.js",
-        "MonogDB",
-        "Mongoose"
-        "C++", "Python",
-        "HTML5", "CSS3", "Tailwind CSS",
-        "Javascript", "Typescript",
-        "React", "Angular"
-        "Node.js","Express.js",
-        "MonogDB", "Mongoose",
-        "PostgreSQL", "Sequelize"
+        "Full Stack Development",
     ],
     "website": "ishanlearnsprog.tech",
     "contact": {
@@ -31,4 +16,5 @@ const ishan = {
         "Twitter": "https://twitter.com/ishanlearnsprog",
     }
 }
+
 ```
