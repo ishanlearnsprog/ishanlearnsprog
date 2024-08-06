@@ -2,12 +2,12 @@
 
 const ishan = {
     "latest_updates": [
-        "Working full time as a full-stack web developer",
-        "Improving UI skills in my free time",
-        "Learning and exploring math and computers"
+        "I am a full-stack web developer",
+        "Learning and exploring math and computers",
+        "Re-learning C because it is neat."
     ],
     "skills": [
-        "Full Stack Development",
+        "Full Stack Web Development",
     ],
     "website": "ishanlearnsprog.tech",
     "contact": {
