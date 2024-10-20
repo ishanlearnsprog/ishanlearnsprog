@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content={{ .Site.Params.description }}>
+        <meta name="author" content={{ .Site.Params.author }}>
+        <meta name="keywords" content={{ .Site.Params.keywords }}>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ .Site.Title }}</title>
+        {{ $style := resources.Get "css/style.css" | resources.Minify | resources.Fingerprint }}
+        <link rel="stylesheet" href="{{ $style.Permalink }}">
+    </head>
+    <body>
+        <main class="home">
+            <section>
+                <h1>Ishan's Website</h1>
+                <p>Hi, I am Ishan and this is my website.</p>
+                <p>I work as a software developer and you can find a display of my <span><a href="/work">work</a></span> here.</p>
+                <p>I also have a <span><a href="/blog">blog</a></span> where I write about programming, computers and my various other interests.</p>
+                <p>I hope you find interesting and useful things here. Thanks for visting!</p>
+                <div class="link-box">
+                    <a href="mailto:learnprog21@gmail.com" target="_blank" rel="noopener noreferrer">Mail</a>
+                    <a href="https://www.github.com/ishanlearnsprog" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href="https://www.linkedin.com/in/ishanlearnsprog" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                </div>
+            </section>
+            <section>
+                {{ with resources.Get "images/home1.jpg" }}
+                    <img src="{{ .Permalink }}" alt="Kim Dokja looking out at the stars from a window - Art by Blackbox">
+                {{ end }}
+            </section>
+        </main>
+    </body>
+</html>

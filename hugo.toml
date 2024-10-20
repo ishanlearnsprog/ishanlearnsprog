@@ -1,0 +1,8 @@
+baseURL = "https://ishanlearnsprog.github.io"
+languageCode = "en-us"
+title = "ishanlearnsprog"
+assetDir = "assets"
+[params]
+description = "Ishan's Website"
+author = "Ishan"
+keywords = "Personal Website, Resume, Portfolio, Blog"
